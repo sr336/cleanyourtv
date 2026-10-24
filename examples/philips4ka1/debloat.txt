@@ -1,0 +1,28 @@
+# CleanYourTV conservative debloat list
+# Device: Philips 4K A1 / Funai / queenstown / Android TV 11
+# Build: RTM8.240401.161
+#
+# This file is a package list for a CleanYourTV-style script, not a standalone
+# shell script. Use only with a script that expects one package name per line.
+# Streaming services are intentionally left untouched.
+#
+# Conservative first-pass candidates only. Package roles are not confirmed
+# against this exact firmware; demo packages should be skipped if unsure.
+#
+# Recommended disable:
+com.google.android.feedback
+fusion.android.tv.demo
+fusion.android.tv.overlay.demo
+com.google.android.tungsten.setupwraith
+tv.anoki.acr.controller
+
+# Verification-only candidate (INTENTIONALLY COMMENTED OUT):
+# tv.anoki.acr.controller
+#
+# Optional non-streaming packages (INTENTIONALLY COMMENTED OUT):
+# com.android.printspooler
+# com.android.dreams.basic
+#
+# Preserve: stock/replacement launchers until reboot-tested, Chromecast receiver,
+# Google Play services/framework, Assistant, setup wizards, network services,
+# MediaTek TV/input services, Funai update services, Dolby/audio services.
